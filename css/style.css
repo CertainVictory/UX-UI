@@ -37,6 +37,7 @@ html {
   img {
       width: 100%;
       display: flex;
+      
   }
 
   header {
@@ -48,20 +49,34 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
+      padding-top: 30px;
   }
 
   .specs {
       display: flex;
-      flex-direction: column;
       align-items: center;
+      justify-content: space-around;
+
 
   }
 
-/* .specs {
+  .spec_items {
+      display: flex;
+      align-items: center;
+      border: 0px solid;
+      height: 40px;
+      width: 140px;
+      background-color: aquamarine;
+      justify-content: center;
+      margin: 5px;
+  }
+
+
+.specs {
     display: flex;
 
-    flex-direction: column;
-} */
+    flex-direction: row;
+}
 
 .second_header {
 
@@ -88,8 +103,8 @@ html {
             justify-content: space-between;
         }
         .specs {
+            flex-direction: column;
             align-items: left;
-            padding-left: ;
             border-left: solid 2px rgba(0, 0, 0, 0.2);
             padding-left: 10px;
         }
