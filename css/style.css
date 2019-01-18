@@ -1,82 +1,79 @@
 html {
-    background-color: #bb8a74;
+    background-color: #fdf3dc;
     font-family: Sarabun;
+
 }
 
 .style_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0px solid #d4d4d4;
+    border: 0px solid;
     height: 50px;
-    background-color: #c19898;
+    background-color: #ffb56c;
     padding: 10px;
-    
 }
 
 .container {
-    display: inline-block;
-    cursor: pointer;
-  }
-  nav {
+display: inline-block;
+cursor: pointer;
+}
 
-  }
-  .bar1, .bar2, .bar3 {
+.bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #333;
+    background-color: #333333;
     margin: 6px 0;
     transition: 0.4s;
-  }
+}
 
-  main {
-      display: flex;
-      flex-direction: column;
-  }
+main {
+    display: flex;
+    flex-direction: column;
+}
 
-  img {
-      width: 100%;
-      display: flex;
-      
-  }
+img {
+    width: 100%;
+    display: flex;
+    
+}
 
-  header {
-      font-size: 1.28em;
-      font-weight: bold;
-  }
+header {
+    font-size: 1.28em;
+    font-weight: bold;
+}
 
-  .second_header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 30px;
-  }
+.second_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
 
-  .specs {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
+.specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
-
-  }
-
-  .spec_items {
-      display: flex;
-      align-items: center;
-      border: 0px solid;
-      height: 40px;
-      width: 140px;
-      background-color: aquamarine;
-      justify-content: center;
-      margin: 5px;
-  }
+.spec_items {
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    height: 40px;
+    width: 140px;
+    background-color: #ffb56c;
+    justify-content: center;
+    margin: 5px;
+    font-style: oblique;
+}
 
 
 .specs {
     display: flex;
 
     flex-direction: row;
-}
+    }
 
 .second_header {
 
@@ -107,5 +104,11 @@ html {
             align-items: left;
             border-left: solid 2px rgba(0, 0, 0, 0.2);
             padding-left: 10px;
+            height: auto;
         }
+        .second_header {
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
   }
